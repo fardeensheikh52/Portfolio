@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8e6f3; /* Light purple background for the body */
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #6a4c9c; /* Medium purple background for header */
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Space between title and social icons */
+  align-items: center;
+  padding: 1rem 2rem; /* Padding for better spacing */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f0e68c; /* Yellow hover effect for links */
+  text-decoration: underline;
+}
+
+/* Social Media Links in Header */
+.social-links-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.social-links-header a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-links-header a:hover {
+  color: #f0e68c; /* Yellow hover effect for icons */
+}
+
+/* Card */
+.card {
+  background: white;
+  color: #333;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  color: #6a4c9c; /* Matching header purple for headings */
+}
+
+.card .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.card .photo {
+  width: 200px; /* Larger photo size */
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the image inside the circle */
+}
+
+.card .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Prevent cropping, fit the image fully */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #6a4c9c; /* Matching purple for footer */
+  position: relative;
+  margin-top: auto; /* Push footer to the bottom */
+}
+
+footer p {
+  color: white;
+  font-size: 1rem;
+}
+
+/* Social Media Links */
+.social-links {
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 15px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #f0e68c; /* Yellow hover effect for social icons */
+}
